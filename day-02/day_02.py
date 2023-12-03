@@ -26,7 +26,7 @@ def get_game_id_value(game_str):
 
     return game_id
 
-def get_games_list(games):
+def get_sum_of_game_ids(games):
     games_list = games.split("\n")
     total_id_value = 0
 
@@ -36,5 +36,5 @@ def get_games_list(games):
 
     return total_id_value
 
-print(f"The sum of the ID of the games is {get_games_list(all_games)}")
+print(f"The sum of the ID of the games is {get_sum_of_game_ids(all_games)}")
 
