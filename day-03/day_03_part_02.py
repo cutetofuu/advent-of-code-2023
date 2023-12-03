@@ -14,7 +14,6 @@ def get_number_matches(str):
     
     return line_number_matches
 
-
 def get_gear_ratio(str, gear_index, numbers_arr):
     part_number_count = 0
 
